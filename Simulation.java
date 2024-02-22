@@ -5,7 +5,7 @@ public class Simulation {
 
   public Simulation(int t) {
     tickLength = t;
-    board = new Board(10, 10);
+    board = new Board(10, 10); //this is what I wanted 
     startSimulation();
   }
 
